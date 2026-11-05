@@ -1,0 +1,38 @@
+capital_dkk: 250000
+max_position_pct: 0.05
+risk_per_trade_pct: 0.005
+stop_atr_multiple: 2.5
+round_trip_cost_pct: 0.004
+min_history_days: 260
+# Illustrative liquid-stock watchlist, not a comprehensive global universe.
+tickers:
+  - AAPL
+  - MSFT
+  - NVDA
+  - AMZN
+  - GOOGL
+  - META
+  - JPM
+  - V
+  - COST
+  - UNH
+  - NVO
+  - ASML
+  - SAP
+  - SIE.DE
+  - AIR.PA
+  - MC.PA
+  - NOVO-B.CO
+  - DSV.CO
+  - MAERSK-B.CO
+  - ORSTED.CO
+  - NESN.SW
+  - NOVN.SW
+  - 7203.T
+  - 6758.T
+  - 9984.T
+  - 005930.KS
+  - 000660.KS
+  - BHP.AX
+  - RIO.L
+  - TSM
