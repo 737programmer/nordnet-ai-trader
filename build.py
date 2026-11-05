@@ -14,6 +14,7 @@ def main():
              'universe_size':len(settings()['tickers']), 'scanned':len(records),
              'missing_tickers':errors, 'signals':records,
              'disclaimer':'Experimental research signals, not financial advice. No orders or Nordnet account connection.'}
+    OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')
     print(f'Wrote {OUT}: {len(records)} instruments, {len(errors)} missing')
 if __name__=='__main__': main()
