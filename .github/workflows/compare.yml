@@ -23,12 +23,12 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Compare strategies
-        run: python compare_strategies.py
+        run: python compare_strategies_v2.py
 
       - name: Upload comparison results
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: strategy-comparison
-          path: site/strategy_comparison.json
+          path: site/strategy_comparison_v2.json
           if-no-files-found: warn
