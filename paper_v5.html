@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="da"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0f172a"><title>Nordnet AI Swing Trader · Papirhandel V5</title>
+<style>
+:root{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#e2e8f0;background:#0b1220}
+body{margin:0 auto;padding:22px 16px;max-width:850px}h1{font-size:1.55rem;margin-bottom:4px}h2{font-size:1.1rem}
+small,.muted{color:#94a3b8}.warn{background:#33291b;border:1px solid #85602d;padding:12px;border-radius:12px}
+.card{background:#182338;border:1px solid #334155;border-radius:14px;padding:16px;margin:14px 0}
+.metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.metric{background:#0f172a;padding:12px;border-radius:10px}
+.big{font-size:1.4rem;font-weight:700}table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{padding:10px 6px;text-align:left;border-bottom:1px solid #334155}td:last-child,th:last-child{text-align:right}
+.tag{display:inline-block;border-radius:6px;padding:3px 7px;background:#334155}a{color:#7dd3fc}
+button{background:#2563eb;border:0;border-radius:8px;padding:10px 16px;color:white;font-weight:600}
+</style></head><body>
+<h1>AI Swing Trader · V5</h1><p class="muted">Daglig scanning og fiktiv portefølje · DKK</p>
+<div class="warn"><b>Kun papirhandel.</b> Ingen Nordnet-forbindelse eller rigtige ordrer. Simulerede handler bruger en senere observeret lukkekurs, ikke en garanteret handelspris. Offentlige GitHub Pages-data er offentlige.</div>
+<p><button onclick="location.reload()">Opdater data</button> <small id="updated"></small></p>
+<div id="content">Indlæser seneste scanning…</div>
+<script>
+const fmt=n=>Number(n).toLocaleString('da-DK',{maximumFractionDigits:0});
+const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function table(rows,columns){return '<table><thead><tr>'+columns.map(c=>'<th>'+c[0]+'</th>').join('')+'</tr></thead><tbody>'+
+(rows.length?rows.map(r=>'<tr>'+columns.map(c=>'<td>'+safe(c[1](r))+'</td>').join('')+'</tr>').join(''):'<tr><td colspan="'+columns.length+'">Ingen endnu</td></tr>')+'</tbody></table>'}
+fetch('paper_v5.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Datafil ikke fundet');return r.json()}).then(d=>{
+document.getElementById('updated').textContent='Sidste scanning: '+new Date(d.generated_utc).toLocaleString('da-DK');
+let html='';
+for(const [key,s] of Object.entries(d.strategies)){
+html+='<section class="card"><h2>'+safe(s.name)+'</h2><div class="metrics"><div class="metric"><small>Fiktiv portefølje</small><div class="big">'+fmt(s.equity_dkk)+' kr.</div></div><div class="metric"><small>Afkast siden start</small><div class="big">'+safe(s.return_pct)+' %</div></div><div class="metric"><small>Kontanter</small><div class="big">'+fmt(s.cash_dkk)+' kr.</div></div><div class="metric"><small>Positioner</small><div class="big">'+s.holdings.length+'/10</div></div></div>';
+html+='<h3>Nye signaler (til næste observation)</h3>'+table(s.new_signals,[['Aktie',x=>x.ticker],['Signal',x=>x.action],['Årsag',x=>x.reason],['Kursdato',x=>x.signal_market_date]]);
+html+='<h3>Behold-signaler</h3>'+table(s.hold_signals||[],[['Aktie',x=>x.ticker],['Signal',x=>x.action],['Kursdato',x=>x.signal_market_date]]);
+html+='<h3>Afventende papirsignaler</h3>'+table(s.pending,[['Aktie',x=>x.ticker],['Handling',x=>x.action],['Kursdato',x=>x.signal_market_date]]);
+html+='<h3>Fiktive beholdninger</h3>'+table(s.holdings,[['Aktie',x=>x.ticker],['Antal',x=>Number(x.shares).toFixed(3)],['Kursdato',x=>x.quote_date],['Værdi DKK',x=>fmt(x.value_dkk)]]);
+html+='<h3>Seneste fiktive handler</h3>'+table(s.recent_paper_fills,[['Aktie',x=>x.ticker],['Handling',x=>x.action],['Dato',x=>x.market_date],['DKK',x=>fmt(x.paper_value_dkk)]]);
+if(s.stale_holdings.length)html+='<p class="warn">Forældede priser for: '+safe(s.stale_holdings.join(', '))+'</p>';
+html+='</section>';
+}
+document.getElementById('content').innerHTML=html;
+}).catch(e=>document.getElementById('content').textContent='Ingen resultater endnu: '+e.message+'. Kør først GitHub Actions-workflowet.');
+</script></body></html>
