@@ -1,0 +1,31 @@
+name: Portfolio Backtest V4.2
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt scipy scikit-learn
+      - name: Run V4.2
+        run: python portfolio_backtest_v42.py
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-backtest-v42
+          path: site/portfolio_backtest_v42.json
+          if-no-files-found: warn
