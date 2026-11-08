@@ -1,0 +1,35 @@
+name: Portfolio Audit V3.1
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Generate V3 baseline in same run
+        run: python portfolio_backtest_v3.py
+      - name: Audit V3.1
+        run: python portfolio_audit_v31.py
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-audit-v31
+          path: |
+            site/portfolio_backtest_v3.json
+            site/portfolio_audit_v31.json
+          if-no-files-found: warn
