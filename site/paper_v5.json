@@ -1,0 +1,275 @@
+{
+  "version": "5.0",
+  "generated_utc": "2026-11-08T21:29:33.698265+00:00",
+  "currency": "DKK",
+  "simulation_only": true,
+  "execution": "Signals from latest observed close; paper fills at later observed close, never broker orders",
+  "cost_round_trip_pct": 0.4,
+  "missing_tickers": {},
+  "quote_dates": {
+    "AAPL": "2026-11-06",
+    "MSFT": "2026-11-06",
+    "NVDA": "2026-11-06",
+    "AMZN": "2026-11-06",
+    "GOOGL": "2026-11-06",
+    "META": "2026-11-06",
+    "JPM": "2026-11-06",
+    "V": "2026-11-06",
+    "COST": "2026-11-06",
+    "UNH": "2026-11-06",
+    "NVO": "2026-11-06",
+    "ASML": "2026-11-06",
+    "SAP": "2026-11-06",
+    "SIE.DE": "2026-11-06",
+    "AIR.PA": "2026-11-06",
+    "MC.PA": "2026-11-06",
+    "NOVO-B.CO": "2026-11-06",
+    "DSV.CO": "2026-11-06",
+    "MAERSK-B.CO": "2026-11-06",
+    "ORSTED.CO": "2026-11-06",
+    "NESN.SW": "2026-11-06",
+    "NOVN.SW": "2026-11-06",
+    "7203.T": "2026-11-06",
+    "6758.T": "2026-11-06",
+    "9984.T": "2026-11-06",
+    "005930.KS": "2026-11-06",
+    "000660.KS": "2026-11-06",
+    "BHP.AX": "2026-11-06",
+    "RIO.L": "2026-11-06",
+    "TSM": "2026-11-06"
+  },
+  "strategies": {
+    "stop20": {
+      "name": "20% trailing stop",
+      "equity_dkk": 300000.0,
+      "return_pct": 0.0,
+      "cash_dkk": 300000.0,
+      "holdings": [],
+      "new_signals": [
+        {
+          "ticker": "NESN.SW",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "NOVN.SW",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "6758.T",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "V",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "SAP",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "AAPL",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "MSFT",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "MAERSK-B.CO",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        }
+      ],
+      "hold_signals": [],
+      "pending": [
+        {
+          "ticker": "NESN.SW",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "NOVN.SW",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "6758.T",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "V",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "SAP",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "AAPL",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "MSFT",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "MAERSK-B.CO",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        }
+      ],
+      "recent_paper_fills": [],
+      "history": [
+        {
+          "market_date": "2026-11-06",
+          "equity_dkk": 300000.0
+        }
+      ],
+      "stale_holdings": []
+    },
+    "no_stop": {
+      "name": "Ingen trailing stop",
+      "equity_dkk": 300000.0,
+      "return_pct": 0.0,
+      "cash_dkk": 300000.0,
+      "holdings": [],
+      "new_signals": [
+        {
+          "ticker": "NESN.SW",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "NOVN.SW",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "6758.T",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "V",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "SAP",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "AAPL",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "MSFT",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "MAERSK-B.CO",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        }
+      ],
+      "hold_signals": [],
+      "pending": [
+        {
+          "ticker": "NESN.SW",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "NOVN.SW",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "6758.T",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "V",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "SAP",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "AAPL",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "MSFT",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "MAERSK-B.CO",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-06"
+        }
+      ],
+      "recent_paper_fills": [],
+      "history": [
+        {
+          "market_date": "2026-11-06",
+          "equity_dkk": 300000.0
+        }
+      ],
+      "stale_holdings": []
+    }
+  }
+}
