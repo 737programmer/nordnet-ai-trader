@@ -1,0 +1,31 @@
+name: Portfolio Sensitivity V4.1
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sensitivity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt scipy scikit-learn
+      - name: Run sensitivity tests
+        run: python portfolio_sensitivity_v41.py
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-sensitivity-v41
+          path: site/portfolio_sensitivity_v41.json
+          if-no-files-found: error
