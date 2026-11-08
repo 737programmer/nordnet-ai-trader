@@ -19,7 +19,7 @@ jobs:
           python-version: '3.11'
           cache: pip
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirements.txt scipy
       - name: Generate V3 baseline in same run
         run: python portfolio_backtest_v3.py
       - name: Audit V3.1
