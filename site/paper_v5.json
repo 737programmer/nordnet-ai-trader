@@ -1,6 +1,6 @@
 {
   "version": "5.0",
-  "generated_utc": "2026-11-08T21:29:33.698265+00:00",
+  "generated_utc": "2026-11-10T01:21:26.755455+00:00",
   "currency": "DKK",
   "simulation_only": true,
   "execution": "Signals from latest observed close; paper fills at later observed close, never broker orders",
@@ -29,22 +29,29 @@
     "ORSTED.CO": "2026-11-06",
     "NESN.SW": "2026-11-06",
     "NOVN.SW": "2026-11-06",
-    "7203.T": "2026-11-06",
-    "6758.T": "2026-11-06",
-    "9984.T": "2026-11-06",
-    "005930.KS": "2026-11-06",
-    "000660.KS": "2026-11-06",
-    "BHP.AX": "2026-11-06",
+    "7203.T": "2026-11-10",
+    "6758.T": "2026-11-10",
+    "9984.T": "2026-11-10",
+    "005930.KS": "2026-11-10",
+    "000660.KS": "2026-11-10",
+    "BHP.AX": "2026-11-10",
     "RIO.L": "2026-11-06",
     "TSM": "2026-11-06"
   },
   "strategies": {
     "stop20": {
       "name": "20% trailing stop",
-      "equity_dkk": 300000.0,
-      "return_pct": 0.0,
-      "cash_dkk": 300000.0,
-      "holdings": [],
+      "equity_dkk": 299940.0,
+      "return_pct": -0.02,
+      "cash_dkk": 270000.0,
+      "holdings": [
+        {
+          "ticker": "6758.T",
+          "shares": 164.260891,
+          "value_dkk": 29940.0,
+          "quote_date": "2026-11-10"
+        }
+      ],
       "new_signals": [
         {
           "ticker": "NESN.SW",
@@ -59,12 +66,6 @@
           "signal_market_date": "2026-11-06"
         },
         {
-          "ticker": "6758.T",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
           "ticker": "V",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
@@ -95,7 +96,13 @@
           "signal_market_date": "2026-11-06"
         }
       ],
-      "hold_signals": [],
+      "hold_signals": [
+        {
+          "ticker": "6758.T",
+          "action": "HOLD",
+          "signal_market_date": "2026-11-10"
+        }
+      ],
       "pending": [
         {
           "ticker": "NESN.SW",
@@ -110,12 +117,6 @@
           "signal_market_date": "2026-11-06"
         },
         {
-          "ticker": "6758.T",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
           "ticker": "V",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
@@ -146,21 +147,43 @@
           "signal_market_date": "2026-11-06"
         }
       ],
-      "recent_paper_fills": [],
+      "recent_paper_fills": [
+        {
+          "scan_utc": "2026-11-10T01:21:26.755455+00:00",
+          "market_date": "2026-11-10",
+          "ticker": "6758.T",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 164.26089075,
+          "paper_value_dkk": 30000.0,
+          "fill_method": "later observed close, hypothetical"
+        }
+      ],
       "history": [
         {
           "market_date": "2026-11-06",
           "equity_dkk": 300000.0
+        },
+        {
+          "market_date": "2026-11-10",
+          "equity_dkk": 299940.0
         }
       ],
       "stale_holdings": []
     },
     "no_stop": {
       "name": "Ingen trailing stop",
-      "equity_dkk": 300000.0,
-      "return_pct": 0.0,
-      "cash_dkk": 300000.0,
-      "holdings": [],
+      "equity_dkk": 299940.0,
+      "return_pct": -0.02,
+      "cash_dkk": 270000.0,
+      "holdings": [
+        {
+          "ticker": "6758.T",
+          "shares": 164.260891,
+          "value_dkk": 29940.0,
+          "quote_date": "2026-11-10"
+        }
+      ],
       "new_signals": [
         {
           "ticker": "NESN.SW",
@@ -175,12 +198,6 @@
           "signal_market_date": "2026-11-06"
         },
         {
-          "ticker": "6758.T",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
           "ticker": "V",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
@@ -211,7 +228,13 @@
           "signal_market_date": "2026-11-06"
         }
       ],
-      "hold_signals": [],
+      "hold_signals": [
+        {
+          "ticker": "6758.T",
+          "action": "HOLD",
+          "signal_market_date": "2026-11-10"
+        }
+      ],
       "pending": [
         {
           "ticker": "NESN.SW",
@@ -226,12 +249,6 @@
           "signal_market_date": "2026-11-06"
         },
         {
-          "ticker": "6758.T",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
           "ticker": "V",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
@@ -262,11 +279,26 @@
           "signal_market_date": "2026-11-06"
         }
       ],
-      "recent_paper_fills": [],
+      "recent_paper_fills": [
+        {
+          "scan_utc": "2026-11-10T01:21:26.755455+00:00",
+          "market_date": "2026-11-10",
+          "ticker": "6758.T",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 164.26089075,
+          "paper_value_dkk": 30000.0,
+          "fill_method": "later observed close, hypothetical"
+        }
+      ],
       "history": [
         {
           "market_date": "2026-11-06",
           "equity_dkk": 300000.0
+        },
+        {
+          "market_date": "2026-11-10",
+          "equity_dkk": 299940.0
         }
       ],
       "stale_holdings": []

@@ -3,8 +3,15 @@
   "created_utc": "2026-11-08T21:29:33.698249+00:00",
   "books": {
     "stop20": {
-      "cash_dkk": 300000.0,
-      "positions": {},
+      "cash_dkk": 270000.0,
+      "positions": {
+        "6758.T": {
+          "shares": 164.26089074800768,
+          "peak_close": 4303.0,
+          "last_price_dkk": 182.27101937448336,
+          "last_quote_date": "2026-11-10"
+        }
+      },
       "pending": [
         {
           "ticker": "NESN.SW",
@@ -14,12 +21,6 @@
         },
         {
           "ticker": "NOVN.SW",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "6758.T",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
           "signal_market_date": "2026-11-06"
@@ -55,17 +56,39 @@
           "signal_market_date": "2026-11-06"
         }
       ],
-      "fills": [],
+      "fills": [
+        {
+          "scan_utc": "2026-11-10T01:21:26.755455+00:00",
+          "market_date": "2026-11-10",
+          "ticker": "6758.T",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 164.26089075,
+          "paper_value_dkk": 30000.0,
+          "fill_method": "later observed close, hypothetical"
+        }
+      ],
       "equity_history": [
         {
           "market_date": "2026-11-06",
           "equity_dkk": 300000.0
+        },
+        {
+          "market_date": "2026-11-10",
+          "equity_dkk": 299940.0
         }
       ]
     },
     "no_stop": {
-      "cash_dkk": 300000.0,
-      "positions": {},
+      "cash_dkk": 270000.0,
+      "positions": {
+        "6758.T": {
+          "shares": 164.26089074800768,
+          "peak_close": 4303.0,
+          "last_price_dkk": 182.27101937448336,
+          "last_quote_date": "2026-11-10"
+        }
+      },
       "pending": [
         {
           "ticker": "NESN.SW",
@@ -75,12 +98,6 @@
         },
         {
           "ticker": "NOVN.SW",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "6758.T",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
           "signal_market_date": "2026-11-06"
@@ -116,11 +133,26 @@
           "signal_market_date": "2026-11-06"
         }
       ],
-      "fills": [],
+      "fills": [
+        {
+          "scan_utc": "2026-11-10T01:21:26.755455+00:00",
+          "market_date": "2026-11-10",
+          "ticker": "6758.T",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 164.26089075,
+          "paper_value_dkk": 30000.0,
+          "fill_method": "later observed close, hypothetical"
+        }
+      ],
       "equity_history": [
         {
           "market_date": "2026-11-06",
           "equity_dkk": 300000.0
+        },
+        {
+          "market_date": "2026-11-10",
+          "equity_dkk": 299940.0
         }
       ]
     }
