@@ -3,57 +3,63 @@
   "created_utc": "2026-11-08T21:29:33.698249+00:00",
   "books": {
     "stop20": {
-      "cash_dkk": 270000.0,
+      "cash_dkk": 90455.59933100935,
       "positions": {
         "6758.T": {
           "shares": 164.26089074800768,
           "peak_close": 4303.0,
-          "last_price_dkk": 182.27101937448336,
+          "last_price_dkk": 178.92465392466136,
           "last_quote_date": "2026-11-10"
+        },
+        "NESN.SW": {
+          "shares": 42.49262973943815,
+          "peak_close": 86.12999725341797,
+          "last_price_dkk": 703.1608639346446,
+          "last_quote_date": "2026-11-09"
+        },
+        "NOVN.SW": {
+          "shares": 27.417637649133724,
+          "peak_close": 133.4600067138672,
+          "last_price_dkk": 1089.5606248022054,
+          "last_quote_date": "2026-11-09"
+        },
+        "V": {
+          "shares": 10.628137876881553,
+          "peak_close": 422.1600036621094,
+          "last_price_dkk": 2810.2010077302984,
+          "last_quote_date": "2026-11-09"
+        },
+        "SAP": {
+          "shares": 18.894269247229193,
+          "peak_close": 237.4199981689453,
+          "last_price_dkk": 1580.4384885397885,
+          "last_quote_date": "2026-11-09"
+        },
+        "AAPL": {
+          "shares": 12.789016405895557,
+          "peak_close": 350.69000244140625,
+          "last_price_dkk": 2334.4452096664463,
+          "last_quote_date": "2026-11-09"
+        },
+        "MSFT": {
+          "shares": 8.224959203949478,
+          "peak_close": 545.1799926757812,
+          "last_price_dkk": 3629.110648857488,
+          "last_quote_date": "2026-11-09"
         }
       },
       "pending": [
-        {
-          "ticker": "NESN.SW",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "NOVN.SW",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "V",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "SAP",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "AAPL",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "MSFT",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
         {
           "ticker": "MAERSK-B.CO",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
           "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "META",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-09"
         }
       ],
       "fills": [
@@ -66,6 +72,66 @@
           "shares": 164.26089075,
           "paper_value_dkk": 30000.0,
           "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-10T04:41:02.926510+00:00",
+          "market_date": "2026-11-09",
+          "ticker": "NESN.SW",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 42.49262974,
+          "paper_value_dkk": 29939.03,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-10T04:41:02.926510+00:00",
+          "market_date": "2026-11-09",
+          "ticker": "NOVN.SW",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 27.41763765,
+          "paper_value_dkk": 29933.04,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-10T04:41:02.926510+00:00",
+          "market_date": "2026-11-09",
+          "ticker": "V",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 10.62813788,
+          "paper_value_dkk": 29927.06,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-10T04:41:02.926510+00:00",
+          "market_date": "2026-11-09",
+          "ticker": "SAP",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 18.89426925,
+          "paper_value_dkk": 29921.07,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-10T04:41:02.926510+00:00",
+          "market_date": "2026-11-09",
+          "ticker": "AAPL",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 12.78901641,
+          "paper_value_dkk": 29915.09,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-10T04:41:02.926510+00:00",
+          "market_date": "2026-11-09",
+          "ticker": "MSFT",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 8.2249592,
+          "paper_value_dkk": 29909.11,
+          "fill_method": "later observed close, hypothetical"
         }
       ],
       "equity_history": [
@@ -75,62 +141,68 @@
         },
         {
           "market_date": "2026-11-10",
-          "equity_dkk": 299940.0
+          "equity_dkk": 299031.23
         }
       ]
     },
     "no_stop": {
-      "cash_dkk": 270000.0,
+      "cash_dkk": 90455.59933100935,
       "positions": {
         "6758.T": {
           "shares": 164.26089074800768,
           "peak_close": 4303.0,
-          "last_price_dkk": 182.27101937448336,
+          "last_price_dkk": 178.92465392466136,
           "last_quote_date": "2026-11-10"
+        },
+        "NESN.SW": {
+          "shares": 42.49262973943815,
+          "peak_close": 86.12999725341797,
+          "last_price_dkk": 703.1608639346446,
+          "last_quote_date": "2026-11-09"
+        },
+        "NOVN.SW": {
+          "shares": 27.417637649133724,
+          "peak_close": 133.4600067138672,
+          "last_price_dkk": 1089.5606248022054,
+          "last_quote_date": "2026-11-09"
+        },
+        "V": {
+          "shares": 10.628137876881553,
+          "peak_close": 422.1600036621094,
+          "last_price_dkk": 2810.2010077302984,
+          "last_quote_date": "2026-11-09"
+        },
+        "SAP": {
+          "shares": 18.894269247229193,
+          "peak_close": 237.4199981689453,
+          "last_price_dkk": 1580.4384885397885,
+          "last_quote_date": "2026-11-09"
+        },
+        "AAPL": {
+          "shares": 12.789016405895557,
+          "peak_close": 350.69000244140625,
+          "last_price_dkk": 2334.4452096664463,
+          "last_quote_date": "2026-11-09"
+        },
+        "MSFT": {
+          "shares": 8.224959203949478,
+          "peak_close": 545.1799926757812,
+          "last_price_dkk": 3629.110648857488,
+          "last_quote_date": "2026-11-09"
         }
       },
       "pending": [
-        {
-          "ticker": "NESN.SW",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "NOVN.SW",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "V",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "SAP",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "AAPL",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "MSFT",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
         {
           "ticker": "MAERSK-B.CO",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
           "signal_market_date": "2026-11-06"
+        },
+        {
+          "ticker": "META",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-09"
         }
       ],
       "fills": [
@@ -143,6 +215,66 @@
           "shares": 164.26089075,
           "paper_value_dkk": 30000.0,
           "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-10T04:41:02.926510+00:00",
+          "market_date": "2026-11-09",
+          "ticker": "NESN.SW",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 42.49262974,
+          "paper_value_dkk": 29939.03,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-10T04:41:02.926510+00:00",
+          "market_date": "2026-11-09",
+          "ticker": "NOVN.SW",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 27.41763765,
+          "paper_value_dkk": 29933.04,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-10T04:41:02.926510+00:00",
+          "market_date": "2026-11-09",
+          "ticker": "V",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 10.62813788,
+          "paper_value_dkk": 29927.06,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-10T04:41:02.926510+00:00",
+          "market_date": "2026-11-09",
+          "ticker": "SAP",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 18.89426925,
+          "paper_value_dkk": 29921.07,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-10T04:41:02.926510+00:00",
+          "market_date": "2026-11-09",
+          "ticker": "AAPL",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 12.78901641,
+          "paper_value_dkk": 29915.09,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-10T04:41:02.926510+00:00",
+          "market_date": "2026-11-09",
+          "ticker": "MSFT",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 8.2249592,
+          "paper_value_dkk": 29909.11,
+          "fill_method": "later observed close, hypothetical"
         }
       ],
       "equity_history": [
@@ -152,7 +284,7 @@
         },
         {
           "market_date": "2026-11-10",
-          "equity_dkk": 299940.0
+          "equity_dkk": 299031.23
         }
       ]
     }
