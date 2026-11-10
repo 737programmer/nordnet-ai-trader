@@ -1,0 +1,50 @@
+name: Paper Trader V5.1 Daily
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 23 * * 1-5'
+    - cron: '25 1 * * 2-6'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paper-trader-v5
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt scipy scikit-learn
+      - name: Scan and update paper portfolio
+        run: python paper_trader_v51.py
+      - name: Publish dashboard file
+        run: cp paper_v5.html site/paper_v5.html
+      - name: Commit simulated state and dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/paper_v5_state.json site/paper_v5.json site/paper_v5.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Update simulated V5 paper portfolio"
+            git push
+          fi
+      - name: Upload result as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-trader-v5
+          path: |
+            site/paper_v5.json
+            site/paper_v5_state.json
+          if-no-files-found: warn
