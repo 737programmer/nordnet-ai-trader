@@ -1,73 +1,85 @@
 {
   "version": "5.1",
-  "generated_utc": "2026-11-10T06:48:22.697126+00:00",
+  "generated_utc": "2026-11-11T02:52:05.937251+00:00",
   "currency": "DKK",
   "simulation_only": true,
   "execution": "Signals from latest observed close; paper fills at later observed close, never broker orders",
   "cost_round_trip_pct": 0.4,
   "missing_tickers": {},
   "quote_dates": {
-    "AAPL": "2026-11-09",
-    "MSFT": "2026-11-09",
-    "NVDA": "2026-11-09",
-    "AMZN": "2026-11-09",
-    "GOOGL": "2026-11-09",
-    "META": "2026-11-09",
-    "JPM": "2026-11-09",
-    "V": "2026-11-09",
-    "COST": "2026-11-09",
-    "UNH": "2026-11-09",
-    "NVO": "2026-11-09",
-    "ASML": "2026-11-09",
-    "SAP": "2026-11-09",
-    "SIE.DE": "2026-11-06",
-    "AIR.PA": "2026-11-06",
-    "MC.PA": "2026-11-06",
-    "NOVO-B.CO": "2026-11-06",
-    "DSV.CO": "2026-11-06",
-    "MAERSK-B.CO": "2026-11-06",
-    "ORSTED.CO": "2026-11-06",
-    "NESN.SW": "2026-11-09",
+    "AAPL": "2026-11-10",
+    "MSFT": "2026-11-10",
+    "NVDA": "2026-11-10",
+    "AMZN": "2026-11-10",
+    "GOOGL": "2026-11-10",
+    "META": "2026-11-10",
+    "JPM": "2026-11-10",
+    "V": "2026-11-10",
+    "COST": "2026-11-10",
+    "UNH": "2026-11-10",
+    "NVO": "2026-11-10",
+    "ASML": "2026-11-10",
+    "SAP": "2026-11-10",
+    "SIE.DE": "2026-11-09",
+    "AIR.PA": "2026-11-09",
+    "MC.PA": "2026-11-09",
+    "NOVO-B.CO": "2026-11-09",
+    "DSV.CO": "2026-11-09",
+    "MAERSK-B.CO": "2026-11-09",
+    "ORSTED.CO": "2026-11-09",
+    "NESN.SW": "2026-11-10",
     "NOVN.SW": "2026-11-09",
-    "7203.T": "2026-11-10",
-    "6758.T": "2026-11-10",
-    "9984.T": "2026-11-10",
-    "005930.KS": "2026-11-10",
-    "000660.KS": "2026-11-10",
-    "BHP.AX": "2026-11-10",
-    "RIO.L": "2026-11-06",
-    "TSM": "2026-11-09"
+    "7203.T": "2026-11-11",
+    "6758.T": "2026-11-11",
+    "9984.T": "2026-11-11",
+    "005930.KS": "2026-11-11",
+    "000660.KS": "2026-11-11",
+    "BHP.AX": "2026-11-11",
+    "RIO.L": "2026-11-09",
+    "TSM": "2026-11-10"
   },
   "strategies": {
     "stop20": {
       "name": "20% trailing stop",
-      "equity_dkk": 299121.69,
-      "return_pct": -0.29,
-      "cash_dkk": 90455.6,
+      "equity_dkk": 298622.13,
+      "return_pct": -0.46,
+      "cash_dkk": 30713.25,
       "holdings": [
         {
           "ticker": "6758.T",
           "shares": 164.260891,
-          "value_dkk": 29480.78,
-          "quote_date": "2026-11-10"
+          "value_dkk": 29327.14,
+          "quote_date": "2026-11-11"
         },
         {
           "ticker": "AAPL",
           "shares": 12.789016,
-          "value_dkk": 29855.26,
+          "value_dkk": 29885.3,
+          "quote_date": "2026-11-10"
+        },
+        {
+          "ticker": "MAERSK-B.CO",
+          "shares": 1.500851,
+          "value_dkk": 29814.41,
           "quote_date": "2026-11-09"
+        },
+        {
+          "ticker": "META",
+          "shares": 6.931256,
+          "value_dkk": 29808.45,
+          "quote_date": "2026-11-10"
         },
         {
           "ticker": "MSFT",
           "shares": 8.224959,
-          "value_dkk": 29849.29,
-          "quote_date": "2026-11-09"
+          "value_dkk": 29403.33,
+          "quote_date": "2026-11-10"
         },
         {
           "ticker": "NESN.SW",
           "shares": 42.49263,
-          "value_dkk": 29879.15,
-          "quote_date": "2026-11-09"
+          "value_dkk": 30040.89,
+          "quote_date": "2026-11-10"
         },
         {
           "ticker": "NOVN.SW",
@@ -78,27 +90,34 @@
         {
           "ticker": "SAP",
           "shares": 18.894269,
-          "value_dkk": 29861.23,
-          "quote_date": "2026-11-09"
+          "value_dkk": 29612.05,
+          "quote_date": "2026-11-10"
         },
         {
           "ticker": "V",
           "shares": 10.628138,
-          "value_dkk": 29867.2,
-          "quote_date": "2026-11-09"
+          "value_dkk": 30144.13,
+          "quote_date": "2026-11-10"
         }
       ],
-      "new_signals": [],
+      "new_signals": [
+        {
+          "ticker": "UNH",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-10"
+        }
+      ],
       "hold_signals": [
         {
           "ticker": "6758.T",
           "action": "HOLD",
-          "signal_market_date": "2026-11-10"
+          "signal_market_date": "2026-11-11"
         },
         {
           "ticker": "NESN.SW",
           "action": "HOLD",
-          "signal_market_date": "2026-11-09"
+          "signal_market_date": "2026-11-10"
         },
         {
           "ticker": "NOVN.SW",
@@ -108,36 +127,41 @@
         {
           "ticker": "V",
           "action": "HOLD",
-          "signal_market_date": "2026-11-09"
+          "signal_market_date": "2026-11-10"
         },
         {
           "ticker": "SAP",
           "action": "HOLD",
-          "signal_market_date": "2026-11-09"
+          "signal_market_date": "2026-11-10"
         },
         {
           "ticker": "AAPL",
           "action": "HOLD",
-          "signal_market_date": "2026-11-09"
+          "signal_market_date": "2026-11-10"
         },
         {
           "ticker": "MSFT",
           "action": "HOLD",
+          "signal_market_date": "2026-11-10"
+        },
+        {
+          "ticker": "MAERSK-B.CO",
+          "action": "HOLD",
           "signal_market_date": "2026-11-09"
+        },
+        {
+          "ticker": "META",
+          "action": "HOLD",
+          "signal_market_date": "2026-11-10"
         }
       ],
       "pending": [
         {
-          "ticker": "MAERSK-B.CO",
+          "ticker": "UNH",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "META",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-09"
+          "signal_market_date": "2026-11-10",
+          "created_utc": "2026-11-11T02:52:05.937251+00:00"
         }
       ],
       "recent_paper_fills": [
@@ -210,6 +234,32 @@
           "shares": 8.2249592,
           "paper_value_dkk": 29909.11,
           "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-11T02:52:05.937251+00:00",
+          "market_date": "2026-11-09",
+          "signal_market_date": "2026-11-06",
+          "signal_created_utc": null,
+          "fee_dkk": 59.75,
+          "ticker": "MAERSK-B.CO",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 1.50085143,
+          "paper_value_dkk": 29874.16,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-11T02:52:05.937251+00:00",
+          "market_date": "2026-11-10",
+          "signal_market_date": "2026-11-09",
+          "signal_created_utc": null,
+          "fee_dkk": 59.74,
+          "ticker": "META",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 6.93125612,
+          "paper_value_dkk": 29868.19,
+          "fill_method": "later observed close, hypothetical"
         }
       ],
       "history": [
@@ -220,39 +270,55 @@
         {
           "market_date": "2026-11-10",
           "equity_dkk": 299121.69
+        },
+        {
+          "market_date": "2026-11-11",
+          "equity_dkk": 298622.13
         }
       ],
       "stale_holdings": []
     },
     "no_stop": {
       "name": "Ingen trailing stop",
-      "equity_dkk": 299121.69,
-      "return_pct": -0.29,
-      "cash_dkk": 90455.6,
+      "equity_dkk": 298622.13,
+      "return_pct": -0.46,
+      "cash_dkk": 30713.25,
       "holdings": [
         {
           "ticker": "6758.T",
           "shares": 164.260891,
-          "value_dkk": 29480.78,
-          "quote_date": "2026-11-10"
+          "value_dkk": 29327.14,
+          "quote_date": "2026-11-11"
         },
         {
           "ticker": "AAPL",
           "shares": 12.789016,
-          "value_dkk": 29855.26,
+          "value_dkk": 29885.3,
+          "quote_date": "2026-11-10"
+        },
+        {
+          "ticker": "MAERSK-B.CO",
+          "shares": 1.500851,
+          "value_dkk": 29814.41,
           "quote_date": "2026-11-09"
+        },
+        {
+          "ticker": "META",
+          "shares": 6.931256,
+          "value_dkk": 29808.45,
+          "quote_date": "2026-11-10"
         },
         {
           "ticker": "MSFT",
           "shares": 8.224959,
-          "value_dkk": 29849.29,
-          "quote_date": "2026-11-09"
+          "value_dkk": 29403.33,
+          "quote_date": "2026-11-10"
         },
         {
           "ticker": "NESN.SW",
           "shares": 42.49263,
-          "value_dkk": 29879.15,
-          "quote_date": "2026-11-09"
+          "value_dkk": 30040.89,
+          "quote_date": "2026-11-10"
         },
         {
           "ticker": "NOVN.SW",
@@ -263,27 +329,34 @@
         {
           "ticker": "SAP",
           "shares": 18.894269,
-          "value_dkk": 29861.23,
-          "quote_date": "2026-11-09"
+          "value_dkk": 29612.05,
+          "quote_date": "2026-11-10"
         },
         {
           "ticker": "V",
           "shares": 10.628138,
-          "value_dkk": 29867.2,
-          "quote_date": "2026-11-09"
+          "value_dkk": 30144.13,
+          "quote_date": "2026-11-10"
         }
       ],
-      "new_signals": [],
+      "new_signals": [
+        {
+          "ticker": "UNH",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-10"
+        }
+      ],
       "hold_signals": [
         {
           "ticker": "6758.T",
           "action": "HOLD",
-          "signal_market_date": "2026-11-10"
+          "signal_market_date": "2026-11-11"
         },
         {
           "ticker": "NESN.SW",
           "action": "HOLD",
-          "signal_market_date": "2026-11-09"
+          "signal_market_date": "2026-11-10"
         },
         {
           "ticker": "NOVN.SW",
@@ -293,36 +366,41 @@
         {
           "ticker": "V",
           "action": "HOLD",
-          "signal_market_date": "2026-11-09"
+          "signal_market_date": "2026-11-10"
         },
         {
           "ticker": "SAP",
           "action": "HOLD",
-          "signal_market_date": "2026-11-09"
+          "signal_market_date": "2026-11-10"
         },
         {
           "ticker": "AAPL",
           "action": "HOLD",
-          "signal_market_date": "2026-11-09"
+          "signal_market_date": "2026-11-10"
         },
         {
           "ticker": "MSFT",
           "action": "HOLD",
+          "signal_market_date": "2026-11-10"
+        },
+        {
+          "ticker": "MAERSK-B.CO",
+          "action": "HOLD",
           "signal_market_date": "2026-11-09"
+        },
+        {
+          "ticker": "META",
+          "action": "HOLD",
+          "signal_market_date": "2026-11-10"
         }
       ],
       "pending": [
         {
-          "ticker": "MAERSK-B.CO",
+          "ticker": "UNH",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "META",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-09"
+          "signal_market_date": "2026-11-10",
+          "created_utc": "2026-11-11T02:52:05.937251+00:00"
         }
       ],
       "recent_paper_fills": [
@@ -395,6 +473,32 @@
           "shares": 8.2249592,
           "paper_value_dkk": 29909.11,
           "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-11T02:52:05.937251+00:00",
+          "market_date": "2026-11-09",
+          "signal_market_date": "2026-11-06",
+          "signal_created_utc": null,
+          "fee_dkk": 59.75,
+          "ticker": "MAERSK-B.CO",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 1.50085143,
+          "paper_value_dkk": 29874.16,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-11T02:52:05.937251+00:00",
+          "market_date": "2026-11-10",
+          "signal_market_date": "2026-11-09",
+          "signal_created_utc": null,
+          "fee_dkk": 59.74,
+          "ticker": "META",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 6.93125612,
+          "paper_value_dkk": 29868.19,
+          "fill_method": "later observed close, hypothetical"
         }
       ],
       "history": [
@@ -405,6 +509,10 @@
         {
           "market_date": "2026-11-10",
           "equity_dkk": 299121.69
+        },
+        {
+          "market_date": "2026-11-11",
+          "equity_dkk": 298622.13
         }
       ],
       "stale_holdings": []

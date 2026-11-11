@@ -3,19 +3,19 @@
   "created_utc": "2026-11-08T21:29:33.698249+00:00",
   "books": {
     "stop20": {
-      "cash_dkk": 90455.59933100935,
+      "cash_dkk": 30713.250290372966,
       "positions": {
         "6758.T": {
           "shares": 164.26089074800768,
           "peak_close": 4303.0,
-          "last_price_dkk": 179.47532165691055,
-          "last_quote_date": "2026-11-10"
+          "last_price_dkk": 178.54001037467836,
+          "last_quote_date": "2026-11-11"
         },
         "NESN.SW": {
           "shares": 42.49262973943815,
-          "peak_close": 86.12999725341797,
-          "last_price_dkk": 703.1608639346446,
-          "last_quote_date": "2026-11-09"
+          "peak_close": 86.41000366210938,
+          "last_price_dkk": 706.9669617938956,
+          "last_quote_date": "2026-11-10"
         },
         "NOVN.SW": {
           "shares": 27.417637649133724,
@@ -25,41 +25,48 @@
         },
         "V": {
           "shares": 10.628137876881553,
-          "peak_close": 422.1600036621094,
-          "last_price_dkk": 2810.2010077302984,
-          "last_quote_date": "2026-11-09"
+          "peak_close": 423.0,
+          "last_price_dkk": 2836.2573251724243,
+          "last_quote_date": "2026-11-10"
         },
         "SAP": {
           "shares": 18.894269247229193,
           "peak_close": 237.4199981689453,
-          "last_price_dkk": 1580.4384885397885,
-          "last_quote_date": "2026-11-09"
+          "last_price_dkk": 1567.2501247419132,
+          "last_quote_date": "2026-11-10"
         },
         "AAPL": {
           "shares": 12.789016405895557,
           "peak_close": 350.69000244140625,
-          "last_price_dkk": 2334.4452096664463,
-          "last_quote_date": "2026-11-09"
+          "last_price_dkk": 2336.794487219071,
+          "last_quote_date": "2026-11-10"
         },
         "MSFT": {
           "shares": 8.224959203949478,
           "peak_close": 545.1799926757812,
-          "last_price_dkk": 3629.110648857488,
+          "last_price_dkk": 3574.890967659361,
+          "last_quote_date": "2026-11-10"
+        },
+        "MAERSK-B.CO": {
+          "shares": 1.500851427769384,
+          "peak_close": 19865.0,
+          "last_price_dkk": 19865.0,
           "last_quote_date": "2026-11-09"
+        },
+        "META": {
+          "shares": 6.931256119563081,
+          "peak_close": 641.3900146484375,
+          "last_price_dkk": 4300.584225387895,
+          "last_quote_date": "2026-11-10"
         }
       },
       "pending": [
         {
-          "ticker": "MAERSK-B.CO",
+          "ticker": "UNH",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "META",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-09"
+          "signal_market_date": "2026-11-10",
+          "created_utc": "2026-11-11T02:52:05.937251+00:00"
         }
       ],
       "fills": [
@@ -132,6 +139,32 @@
           "shares": 8.2249592,
           "paper_value_dkk": 29909.11,
           "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-11T02:52:05.937251+00:00",
+          "market_date": "2026-11-09",
+          "signal_market_date": "2026-11-06",
+          "signal_created_utc": null,
+          "fee_dkk": 59.75,
+          "ticker": "MAERSK-B.CO",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 1.50085143,
+          "paper_value_dkk": 29874.16,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-11T02:52:05.937251+00:00",
+          "market_date": "2026-11-10",
+          "signal_market_date": "2026-11-09",
+          "signal_created_utc": null,
+          "fee_dkk": 59.74,
+          "ticker": "META",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 6.93125612,
+          "paper_value_dkk": 29868.19,
+          "fill_method": "later observed close, hypothetical"
         }
       ],
       "equity_history": [
@@ -142,33 +175,40 @@
         {
           "market_date": "2026-11-10",
           "equity_dkk": 299121.69
+        },
+        {
+          "market_date": "2026-11-11",
+          "equity_dkk": 298622.13
         }
       ],
       "migration_reference_utc": "2026-11-08T21:29:33.698249+00:00",
       "last_signal_dates": {
-        "6758.T": "2026-11-10",
-        "NESN.SW": "2026-11-09",
+        "6758.T": "2026-11-11",
+        "NESN.SW": "2026-11-10",
         "NOVN.SW": "2026-11-09",
-        "V": "2026-11-09",
-        "SAP": "2026-11-09",
-        "AAPL": "2026-11-09",
-        "MSFT": "2026-11-09"
+        "V": "2026-11-10",
+        "SAP": "2026-11-10",
+        "AAPL": "2026-11-10",
+        "MSFT": "2026-11-10",
+        "MAERSK-B.CO": "2026-11-09",
+        "META": "2026-11-10",
+        "UNH": "2026-11-10"
       }
     },
     "no_stop": {
-      "cash_dkk": 90455.59933100935,
+      "cash_dkk": 30713.250290372966,
       "positions": {
         "6758.T": {
           "shares": 164.26089074800768,
           "peak_close": 4303.0,
-          "last_price_dkk": 179.47532165691055,
-          "last_quote_date": "2026-11-10"
+          "last_price_dkk": 178.54001037467836,
+          "last_quote_date": "2026-11-11"
         },
         "NESN.SW": {
           "shares": 42.49262973943815,
-          "peak_close": 86.12999725341797,
-          "last_price_dkk": 703.1608639346446,
-          "last_quote_date": "2026-11-09"
+          "peak_close": 86.41000366210938,
+          "last_price_dkk": 706.9669617938956,
+          "last_quote_date": "2026-11-10"
         },
         "NOVN.SW": {
           "shares": 27.417637649133724,
@@ -178,41 +218,48 @@
         },
         "V": {
           "shares": 10.628137876881553,
-          "peak_close": 422.1600036621094,
-          "last_price_dkk": 2810.2010077302984,
-          "last_quote_date": "2026-11-09"
+          "peak_close": 423.0,
+          "last_price_dkk": 2836.2573251724243,
+          "last_quote_date": "2026-11-10"
         },
         "SAP": {
           "shares": 18.894269247229193,
           "peak_close": 237.4199981689453,
-          "last_price_dkk": 1580.4384885397885,
-          "last_quote_date": "2026-11-09"
+          "last_price_dkk": 1567.2501247419132,
+          "last_quote_date": "2026-11-10"
         },
         "AAPL": {
           "shares": 12.789016405895557,
           "peak_close": 350.69000244140625,
-          "last_price_dkk": 2334.4452096664463,
-          "last_quote_date": "2026-11-09"
+          "last_price_dkk": 2336.794487219071,
+          "last_quote_date": "2026-11-10"
         },
         "MSFT": {
           "shares": 8.224959203949478,
           "peak_close": 545.1799926757812,
-          "last_price_dkk": 3629.110648857488,
+          "last_price_dkk": 3574.890967659361,
+          "last_quote_date": "2026-11-10"
+        },
+        "MAERSK-B.CO": {
+          "shares": 1.500851427769384,
+          "peak_close": 19865.0,
+          "last_price_dkk": 19865.0,
           "last_quote_date": "2026-11-09"
+        },
+        "META": {
+          "shares": 6.931256119563081,
+          "peak_close": 641.3900146484375,
+          "last_price_dkk": 4300.584225387895,
+          "last_quote_date": "2026-11-10"
         }
       },
       "pending": [
         {
-          "ticker": "MAERSK-B.CO",
+          "ticker": "UNH",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-06"
-        },
-        {
-          "ticker": "META",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-09"
+          "signal_market_date": "2026-11-10",
+          "created_utc": "2026-11-11T02:52:05.937251+00:00"
         }
       ],
       "fills": [
@@ -285,6 +332,32 @@
           "shares": 8.2249592,
           "paper_value_dkk": 29909.11,
           "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-11T02:52:05.937251+00:00",
+          "market_date": "2026-11-09",
+          "signal_market_date": "2026-11-06",
+          "signal_created_utc": null,
+          "fee_dkk": 59.75,
+          "ticker": "MAERSK-B.CO",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 1.50085143,
+          "paper_value_dkk": 29874.16,
+          "fill_method": "later observed close, hypothetical"
+        },
+        {
+          "scan_utc": "2026-11-11T02:52:05.937251+00:00",
+          "market_date": "2026-11-10",
+          "signal_market_date": "2026-11-09",
+          "signal_created_utc": null,
+          "fee_dkk": 59.74,
+          "ticker": "META",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "shares": 6.93125612,
+          "paper_value_dkk": 29868.19,
+          "fill_method": "later observed close, hypothetical"
         }
       ],
       "equity_history": [
@@ -295,17 +368,24 @@
         {
           "market_date": "2026-11-10",
           "equity_dkk": 299121.69
+        },
+        {
+          "market_date": "2026-11-11",
+          "equity_dkk": 298622.13
         }
       ],
       "migration_reference_utc": "2026-11-08T21:29:33.698249+00:00",
       "last_signal_dates": {
-        "6758.T": "2026-11-10",
-        "NESN.SW": "2026-11-09",
+        "6758.T": "2026-11-11",
+        "NESN.SW": "2026-11-10",
         "NOVN.SW": "2026-11-09",
-        "V": "2026-11-09",
-        "SAP": "2026-11-09",
-        "AAPL": "2026-11-09",
-        "MSFT": "2026-11-09"
+        "V": "2026-11-10",
+        "SAP": "2026-11-10",
+        "AAPL": "2026-11-10",
+        "MSFT": "2026-11-10",
+        "MAERSK-B.CO": "2026-11-09",
+        "META": "2026-11-10",
+        "UNH": "2026-11-10"
       }
     }
   }
