@@ -8,7 +8,7 @@
         "6758.T": {
           "shares": 164.26089074800768,
           "peak_close": 4303.0,
-          "last_price_dkk": 178.54001037467836,
+          "last_price_dkk": 177.06447309885456,
           "last_quote_date": "2026-11-11"
         },
         "NESN.SW": {
@@ -67,6 +67,13 @@
           "reason": "ENTRY_SIGNAL",
           "signal_market_date": "2026-11-10",
           "created_utc": "2026-11-11T02:52:05.937251+00:00"
+        },
+        {
+          "ticker": "AMZN",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-10",
+          "created_utc": "2026-11-11T07:53:59.479061+00:00"
         }
       ],
       "fills": [
@@ -178,7 +185,7 @@
         },
         {
           "market_date": "2026-11-11",
-          "equity_dkk": 298622.13
+          "equity_dkk": 298379.76
         }
       ],
       "migration_reference_utc": "2026-11-08T21:29:33.698249+00:00",
@@ -192,7 +199,8 @@
         "MSFT": "2026-11-10",
         "MAERSK-B.CO": "2026-11-09",
         "META": "2026-11-10",
-        "UNH": "2026-11-10"
+        "UNH": "2026-11-10",
+        "AMZN": "2026-11-10"
       }
     },
     "no_stop": {
@@ -201,7 +209,7 @@
         "6758.T": {
           "shares": 164.26089074800768,
           "peak_close": 4303.0,
-          "last_price_dkk": 178.54001037467836,
+          "last_price_dkk": 177.06447309885456,
           "last_quote_date": "2026-11-11"
         },
         "NESN.SW": {
@@ -260,6 +268,13 @@
           "reason": "ENTRY_SIGNAL",
           "signal_market_date": "2026-11-10",
           "created_utc": "2026-11-11T02:52:05.937251+00:00"
+        },
+        {
+          "ticker": "AMZN",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-10",
+          "created_utc": "2026-11-11T07:53:59.479061+00:00"
         }
       ],
       "fills": [
@@ -371,7 +386,7 @@
         },
         {
           "market_date": "2026-11-11",
-          "equity_dkk": 298622.13
+          "equity_dkk": 298379.76
         }
       ],
       "migration_reference_utc": "2026-11-08T21:29:33.698249+00:00",
@@ -385,7 +400,8 @@
         "MSFT": "2026-11-10",
         "MAERSK-B.CO": "2026-11-09",
         "META": "2026-11-10",
-        "UNH": "2026-11-10"
+        "UNH": "2026-11-10",
+        "AMZN": "2026-11-10"
       }
     }
   }

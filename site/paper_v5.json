@@ -1,6 +1,6 @@
 {
   "version": "5.1",
-  "generated_utc": "2026-11-11T02:52:05.937251+00:00",
+  "generated_utc": "2026-11-11T07:53:59.479061+00:00",
   "currency": "DKK",
   "simulation_only": true,
   "execution": "Signals from latest observed close; paper fills at later observed close, never broker orders",
@@ -41,14 +41,14 @@
   "strategies": {
     "stop20": {
       "name": "20% trailing stop",
-      "equity_dkk": 298622.13,
-      "return_pct": -0.46,
+      "equity_dkk": 298379.76,
+      "return_pct": -0.54,
       "cash_dkk": 30713.25,
       "holdings": [
         {
           "ticker": "6758.T",
           "shares": 164.260891,
-          "value_dkk": 29327.14,
+          "value_dkk": 29084.77,
           "quote_date": "2026-11-11"
         },
         {
@@ -102,7 +102,7 @@
       ],
       "new_signals": [
         {
-          "ticker": "UNH",
+          "ticker": "AMZN",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
           "signal_market_date": "2026-11-10"
@@ -162,6 +162,13 @@
           "reason": "ENTRY_SIGNAL",
           "signal_market_date": "2026-11-10",
           "created_utc": "2026-11-11T02:52:05.937251+00:00"
+        },
+        {
+          "ticker": "AMZN",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-10",
+          "created_utc": "2026-11-11T07:53:59.479061+00:00"
         }
       ],
       "recent_paper_fills": [
@@ -273,21 +280,21 @@
         },
         {
           "market_date": "2026-11-11",
-          "equity_dkk": 298622.13
+          "equity_dkk": 298379.76
         }
       ],
       "stale_holdings": []
     },
     "no_stop": {
       "name": "Ingen trailing stop",
-      "equity_dkk": 298622.13,
-      "return_pct": -0.46,
+      "equity_dkk": 298379.76,
+      "return_pct": -0.54,
       "cash_dkk": 30713.25,
       "holdings": [
         {
           "ticker": "6758.T",
           "shares": 164.260891,
-          "value_dkk": 29327.14,
+          "value_dkk": 29084.77,
           "quote_date": "2026-11-11"
         },
         {
@@ -341,7 +348,7 @@
       ],
       "new_signals": [
         {
-          "ticker": "UNH",
+          "ticker": "AMZN",
           "action": "BUY",
           "reason": "ENTRY_SIGNAL",
           "signal_market_date": "2026-11-10"
@@ -401,6 +408,13 @@
           "reason": "ENTRY_SIGNAL",
           "signal_market_date": "2026-11-10",
           "created_utc": "2026-11-11T02:52:05.937251+00:00"
+        },
+        {
+          "ticker": "AMZN",
+          "action": "BUY",
+          "reason": "ENTRY_SIGNAL",
+          "signal_market_date": "2026-11-10",
+          "created_utc": "2026-11-11T07:53:59.479061+00:00"
         }
       ],
       "recent_paper_fills": [
@@ -512,7 +526,7 @@
         },
         {
           "market_date": "2026-11-11",
-          "equity_dkk": 298622.13
+          "equity_dkk": 298379.76
         }
       ],
       "stale_holdings": []
