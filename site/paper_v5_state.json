@@ -8,20 +8,20 @@
         "6758.T": {
           "shares": 164.26089074800768,
           "peak_close": 4303.0,
-          "last_price_dkk": 178.41860867677107,
+          "last_price_dkk": 180.52707722648475,
           "last_quote_date": "2026-11-12"
         },
         "NESN.SW": {
           "shares": 42.49262973943815,
-          "peak_close": 86.41000366210938,
-          "last_price_dkk": 698.1949203104703,
-          "last_quote_date": "2026-11-11"
+          "peak_close": 86.69999694824219,
+          "last_price_dkk": 703.4051295651049,
+          "last_quote_date": "2026-11-12"
         },
         "NOVN.SW": {
           "shares": 27.417637649133724,
-          "peak_close": 133.4600067138672,
-          "last_price_dkk": 1078.7847003455186,
-          "last_quote_date": "2026-11-11"
+          "peak_close": 134.60000610351562,
+          "last_price_dkk": 1092.0223536942913,
+          "last_quote_date": "2026-11-12"
         },
         "V": {
           "shares": 10.628137876881553,
@@ -50,8 +50,8 @@
         "MAERSK-B.CO": {
           "shares": 1.500851427769384,
           "peak_close": 19865.0,
-          "last_price_dkk": 19360.0,
-          "last_quote_date": "2026-11-10"
+          "last_price_dkk": 19860.0,
+          "last_quote_date": "2026-11-12"
         },
         "META": {
           "shares": 6.931256119563081,
@@ -201,19 +201,19 @@
         },
         {
           "market_date": "2026-11-12",
-          "equity_dkk": 295712.59
+          "equity_dkk": 297393.69
         }
       ],
       "migration_reference_utc": "2026-11-08T21:29:33.698249+00:00",
       "last_signal_dates": {
         "6758.T": "2026-11-12",
-        "NESN.SW": "2026-11-11",
-        "NOVN.SW": "2026-11-11",
+        "NESN.SW": "2026-11-12",
+        "NOVN.SW": "2026-11-12",
         "V": "2026-11-11",
         "SAP": "2026-11-11",
         "AAPL": "2026-11-11",
         "MSFT": "2026-11-11",
-        "MAERSK-B.CO": "2026-11-10",
+        "MAERSK-B.CO": "2026-11-12",
         "META": "2026-11-11",
         "UNH": "2026-11-11",
         "AMZN": "2026-11-10"
@@ -225,20 +225,20 @@
         "6758.T": {
           "shares": 164.26089074800768,
           "peak_close": 4303.0,
-          "last_price_dkk": 178.41860867677107,
+          "last_price_dkk": 180.52707722648475,
           "last_quote_date": "2026-11-12"
         },
         "NESN.SW": {
           "shares": 42.49262973943815,
-          "peak_close": 86.41000366210938,
-          "last_price_dkk": 698.1949203104703,
-          "last_quote_date": "2026-11-11"
+          "peak_close": 86.69999694824219,
+          "last_price_dkk": 703.4051295651049,
+          "last_quote_date": "2026-11-12"
         },
         "NOVN.SW": {
           "shares": 27.417637649133724,
-          "peak_close": 133.4600067138672,
-          "last_price_dkk": 1078.7847003455186,
-          "last_quote_date": "2026-11-11"
+          "peak_close": 134.60000610351562,
+          "last_price_dkk": 1092.0223536942913,
+          "last_quote_date": "2026-11-12"
         },
         "V": {
           "shares": 10.628137876881553,
@@ -267,8 +267,8 @@
         "MAERSK-B.CO": {
           "shares": 1.500851427769384,
           "peak_close": 19865.0,
-          "last_price_dkk": 19360.0,
-          "last_quote_date": "2026-11-10"
+          "last_price_dkk": 19860.0,
+          "last_quote_date": "2026-11-12"
         },
         "META": {
           "shares": 6.931256119563081,
@@ -418,19 +418,19 @@
         },
         {
           "market_date": "2026-11-12",
-          "equity_dkk": 295712.59
+          "equity_dkk": 297393.69
         }
       ],
       "migration_reference_utc": "2026-11-08T21:29:33.698249+00:00",
       "last_signal_dates": {
         "6758.T": "2026-11-12",
-        "NESN.SW": "2026-11-11",
-        "NOVN.SW": "2026-11-11",
+        "NESN.SW": "2026-11-12",
+        "NOVN.SW": "2026-11-12",
         "V": "2026-11-11",
         "SAP": "2026-11-11",
         "AAPL": "2026-11-11",
         "MSFT": "2026-11-11",
-        "MAERSK-B.CO": "2026-11-10",
+        "MAERSK-B.CO": "2026-11-12",
         "META": "2026-11-11",
         "UNH": "2026-11-11",
         "AMZN": "2026-11-10"
