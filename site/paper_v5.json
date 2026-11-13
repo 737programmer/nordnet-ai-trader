@@ -1,6 +1,6 @@
 {
   "version": "5.1",
-  "generated_utc": "2026-11-13T03:28:09.294994+00:00",
+  "generated_utc": "2026-11-13T08:15:56.123572+00:00",
   "currency": "DKK",
   "simulation_only": true,
   "execution": "Signals from latest observed close; paper fills at later observed close, never broker orders",
@@ -21,34 +21,34 @@
     "ASML": "2026-11-12",
     "SAP": "2026-11-12",
     "SIE.DE": "2026-11-11",
-    "AIR.PA": "2026-11-11",
-    "MC.PA": "2026-11-11",
-    "NOVO-B.CO": "2026-11-11",
-    "DSV.CO": "2026-11-11",
-    "MAERSK-B.CO": "2026-11-11",
-    "ORSTED.CO": "2026-11-11",
-    "NESN.SW": "2026-11-11",
-    "NOVN.SW": "2026-11-11",
+    "AIR.PA": "2026-11-13",
+    "MC.PA": "2026-11-13",
+    "NOVO-B.CO": "2026-11-13",
+    "DSV.CO": "2026-11-13",
+    "MAERSK-B.CO": "2026-11-13",
+    "ORSTED.CO": "2026-11-13",
+    "NESN.SW": "2026-11-13",
+    "NOVN.SW": "2026-11-13",
     "7203.T": "2026-11-13",
     "6758.T": "2026-11-13",
     "9984.T": "2026-11-13",
     "005930.KS": "2026-11-13",
     "000660.KS": "2026-11-13",
     "BHP.AX": "2026-11-13",
-    "RIO.L": "2026-11-11",
+    "RIO.L": "2026-11-13",
     "TSM": "2026-11-12"
   },
   "strategies": {
     "stop20": {
       "name": "20% trailing stop",
-      "equity_dkk": 297690.23,
-      "return_pct": -0.77,
+      "equity_dkk": 298750.91,
+      "return_pct": -0.42,
       "cash_dkk": 30005.84,
       "holdings": [
         {
           "ticker": "6758.T",
           "shares": 164.260891,
-          "value_dkk": 30101.09,
+          "value_dkk": 30156.51,
           "quote_date": "2026-11-13"
         },
         {
@@ -60,8 +60,8 @@
         {
           "ticker": "MAERSK-B.CO",
           "shares": 1.500851,
-          "value_dkk": 29859.44,
-          "quote_date": "2026-11-11"
+          "value_dkk": 30377.23,
+          "quote_date": "2026-11-13"
         },
         {
           "ticker": "MSFT",
@@ -72,14 +72,14 @@
         {
           "ticker": "NESN.SW",
           "shares": 42.49263,
-          "value_dkk": 29668.14,
-          "quote_date": "2026-11-11"
+          "value_dkk": 29937.35,
+          "quote_date": "2026-11-13"
         },
         {
           "ticker": "NOVN.SW",
           "shares": 27.417638,
-          "value_dkk": 29577.73,
-          "quote_date": "2026-11-11"
+          "value_dkk": 29795.97,
+          "quote_date": "2026-11-13"
         },
         {
           "ticker": "SAP",
@@ -100,14 +100,7 @@
           "quote_date": "2026-11-12"
         }
       ],
-      "new_signals": [
-        {
-          "ticker": "AMZN",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-12"
-        }
-      ],
+      "new_signals": [],
       "hold_signals": [
         {
           "ticker": "6758.T",
@@ -117,12 +110,12 @@
         {
           "ticker": "NESN.SW",
           "action": "HOLD",
-          "signal_market_date": "2026-11-11"
+          "signal_market_date": "2026-11-13"
         },
         {
           "ticker": "NOVN.SW",
           "action": "HOLD",
-          "signal_market_date": "2026-11-11"
+          "signal_market_date": "2026-11-13"
         },
         {
           "ticker": "V",
@@ -147,7 +140,7 @@
         {
           "ticker": "MAERSK-B.CO",
           "action": "HOLD",
-          "signal_market_date": "2026-11-11"
+          "signal_market_date": "2026-11-13"
         },
         {
           "ticker": "UNH",
@@ -307,21 +300,21 @@
         },
         {
           "market_date": "2026-11-13",
-          "equity_dkk": 297690.23
+          "equity_dkk": 298750.91
         }
       ],
       "stale_holdings": []
     },
     "no_stop": {
       "name": "Ingen trailing stop",
-      "equity_dkk": 297690.23,
-      "return_pct": -0.77,
+      "equity_dkk": 298750.91,
+      "return_pct": -0.42,
       "cash_dkk": 30005.84,
       "holdings": [
         {
           "ticker": "6758.T",
           "shares": 164.260891,
-          "value_dkk": 30101.09,
+          "value_dkk": 30156.51,
           "quote_date": "2026-11-13"
         },
         {
@@ -333,8 +326,8 @@
         {
           "ticker": "MAERSK-B.CO",
           "shares": 1.500851,
-          "value_dkk": 29859.44,
-          "quote_date": "2026-11-11"
+          "value_dkk": 30377.23,
+          "quote_date": "2026-11-13"
         },
         {
           "ticker": "MSFT",
@@ -345,14 +338,14 @@
         {
           "ticker": "NESN.SW",
           "shares": 42.49263,
-          "value_dkk": 29668.14,
-          "quote_date": "2026-11-11"
+          "value_dkk": 29937.35,
+          "quote_date": "2026-11-13"
         },
         {
           "ticker": "NOVN.SW",
           "shares": 27.417638,
-          "value_dkk": 29577.73,
-          "quote_date": "2026-11-11"
+          "value_dkk": 29795.97,
+          "quote_date": "2026-11-13"
         },
         {
           "ticker": "SAP",
@@ -373,14 +366,7 @@
           "quote_date": "2026-11-12"
         }
       ],
-      "new_signals": [
-        {
-          "ticker": "AMZN",
-          "action": "BUY",
-          "reason": "ENTRY_SIGNAL",
-          "signal_market_date": "2026-11-12"
-        }
-      ],
+      "new_signals": [],
       "hold_signals": [
         {
           "ticker": "6758.T",
@@ -390,12 +376,12 @@
         {
           "ticker": "NESN.SW",
           "action": "HOLD",
-          "signal_market_date": "2026-11-11"
+          "signal_market_date": "2026-11-13"
         },
         {
           "ticker": "NOVN.SW",
           "action": "HOLD",
-          "signal_market_date": "2026-11-11"
+          "signal_market_date": "2026-11-13"
         },
         {
           "ticker": "V",
@@ -420,7 +406,7 @@
         {
           "ticker": "MAERSK-B.CO",
           "action": "HOLD",
-          "signal_market_date": "2026-11-11"
+          "signal_market_date": "2026-11-13"
         },
         {
           "ticker": "UNH",
@@ -580,7 +566,7 @@
         },
         {
           "market_date": "2026-11-13",
-          "equity_dkk": 297690.23
+          "equity_dkk": 298750.91
         }
       ],
       "stale_holdings": []
