@@ -1,6 +1,6 @@
 {
   "version": "5.1",
-  "generated_utc": "2026-11-14T03:24:14.762486+00:00",
+  "generated_utc": "2026-11-14T07:43:50.965998+00:00",
   "currency": "DKK",
   "simulation_only": true,
   "execution": "Signals from latest observed close; paper fills at later observed close, never broker orders",
