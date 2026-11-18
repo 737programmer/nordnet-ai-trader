@@ -1,6 +1,6 @@
 {
   "version": "5.1",
-  "generated_utc": "2026-11-18T08:24:59.605048+00:00",
+  "generated_utc": "2026-11-18T08:43:04.813384+00:00",
   "currency": "DKK",
   "simulation_only": true,
   "execution": "Signals from latest observed close; paper fills at later observed close, never broker orders",
@@ -41,8 +41,8 @@
   "strategies": {
     "stop20": {
       "name": "20% trailing stop",
-      "equity_dkk": 295662.26,
-      "return_pct": -1.45,
+      "equity_dkk": 295387.83,
+      "return_pct": -1.54,
       "cash_dkk": 0.0,
       "holdings": [
         {
@@ -66,7 +66,7 @@
         {
           "ticker": "MAERSK-B.CO",
           "shares": 1.500851,
-          "value_dkk": 31082.63,
+          "value_dkk": 31037.61,
           "quote_date": "2026-11-18"
         },
         {
@@ -78,13 +78,13 @@
         {
           "ticker": "NESN.SW",
           "shares": 42.49263,
-          "value_dkk": 29740.4,
+          "value_dkk": 29644.12,
           "quote_date": "2026-11-18"
         },
         {
           "ticker": "NOVN.SW",
           "shares": 27.417638,
-          "value_dkk": 29663.93,
+          "value_dkk": 29530.81,
           "quote_date": "2026-11-18"
         },
         {
@@ -324,15 +324,15 @@
         },
         {
           "market_date": "2026-11-18",
-          "equity_dkk": 295662.26
+          "equity_dkk": 295387.83
         }
       ],
       "stale_holdings": []
     },
     "no_stop": {
       "name": "Ingen trailing stop",
-      "equity_dkk": 295662.26,
-      "return_pct": -1.45,
+      "equity_dkk": 295387.83,
+      "return_pct": -1.54,
       "cash_dkk": 0.0,
       "holdings": [
         {
@@ -356,7 +356,7 @@
         {
           "ticker": "MAERSK-B.CO",
           "shares": 1.500851,
-          "value_dkk": 31082.63,
+          "value_dkk": 31037.61,
           "quote_date": "2026-11-18"
         },
         {
@@ -368,13 +368,13 @@
         {
           "ticker": "NESN.SW",
           "shares": 42.49263,
-          "value_dkk": 29740.4,
+          "value_dkk": 29644.12,
           "quote_date": "2026-11-18"
         },
         {
           "ticker": "NOVN.SW",
           "shares": 27.417638,
-          "value_dkk": 29663.93,
+          "value_dkk": 29530.81,
           "quote_date": "2026-11-18"
         },
         {
@@ -614,7 +614,7 @@
         },
         {
           "market_date": "2026-11-18",
-          "equity_dkk": 295662.26
+          "equity_dkk": 295387.83
         }
       ],
       "stale_holdings": []
