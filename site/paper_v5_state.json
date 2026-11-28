@@ -14,14 +14,14 @@
         "NESN.SW": {
           "shares": 42.49262973943815,
           "peak_close": 88.12000274658203,
-          "last_price_dkk": 714.9634144341602,
-          "last_quote_date": "2026-11-26"
+          "last_price_dkk": 715.7947662202102,
+          "last_quote_date": "2026-11-27"
         },
         "NOVN.SW": {
           "shares": 27.417637649133724,
           "peak_close": 135.75999450683594,
-          "last_price_dkk": 1046.0571659816483,
-          "last_quote_date": "2026-11-26"
+          "last_price_dkk": 1053.121494343292,
+          "last_quote_date": "2026-11-27"
         },
         "V": {
           "shares": 10.628137876881553,
@@ -50,8 +50,8 @@
         "MAERSK-B.CO": {
           "shares": 1.500851427769384,
           "peak_close": 20710.0,
-          "last_price_dkk": 19085.0,
-          "last_quote_date": "2026-11-26"
+          "last_price_dkk": 19320.0,
+          "last_quote_date": "2026-11-27"
         },
         "AMZN": {
           "shares": 16.669512381881248,
@@ -281,19 +281,19 @@
         },
         {
           "market_date": "2026-11-27",
-          "equity_dkk": 289547.93
+          "equity_dkk": 290129.65
         }
       ],
       "migration_reference_utc": "2026-11-08T21:29:33.698249+00:00",
       "last_signal_dates": {
         "6758.T": "2026-11-27",
-        "NESN.SW": "2026-11-26",
-        "NOVN.SW": "2026-11-26",
+        "NESN.SW": "2026-11-27",
+        "NOVN.SW": "2026-11-27",
         "V": "2026-11-27",
         "SAP": "2026-11-27",
         "AAPL": "2026-11-27",
         "MSFT": "2026-11-27",
-        "MAERSK-B.CO": "2026-11-26",
+        "MAERSK-B.CO": "2026-11-27",
         "META": "2026-11-11",
         "UNH": "2026-11-18",
         "AMZN": "2026-11-27",
@@ -313,14 +313,14 @@
         "NESN.SW": {
           "shares": 42.49262973943815,
           "peak_close": 88.12000274658203,
-          "last_price_dkk": 714.9634144341602,
-          "last_quote_date": "2026-11-26"
+          "last_price_dkk": 715.7947662202102,
+          "last_quote_date": "2026-11-27"
         },
         "NOVN.SW": {
           "shares": 27.417637649133724,
           "peak_close": 135.75999450683594,
-          "last_price_dkk": 1046.0571659816483,
-          "last_quote_date": "2026-11-26"
+          "last_price_dkk": 1053.121494343292,
+          "last_quote_date": "2026-11-27"
         },
         "V": {
           "shares": 10.628137876881553,
@@ -349,8 +349,8 @@
         "MAERSK-B.CO": {
           "shares": 1.500851427769384,
           "peak_close": 20710.0,
-          "last_price_dkk": 19085.0,
-          "last_quote_date": "2026-11-26"
+          "last_price_dkk": 19320.0,
+          "last_quote_date": "2026-11-27"
         },
         "AMZN": {
           "shares": 16.669512381881248,
@@ -580,19 +580,19 @@
         },
         {
           "market_date": "2026-11-27",
-          "equity_dkk": 289547.93
+          "equity_dkk": 290129.65
         }
       ],
       "migration_reference_utc": "2026-11-08T21:29:33.698249+00:00",
       "last_signal_dates": {
         "6758.T": "2026-11-27",
-        "NESN.SW": "2026-11-26",
-        "NOVN.SW": "2026-11-26",
+        "NESN.SW": "2026-11-27",
+        "NOVN.SW": "2026-11-27",
         "V": "2026-11-27",
         "SAP": "2026-11-27",
         "AAPL": "2026-11-27",
         "MSFT": "2026-11-27",
-        "MAERSK-B.CO": "2026-11-26",
+        "MAERSK-B.CO": "2026-11-27",
         "META": "2026-11-11",
         "UNH": "2026-11-18",
         "AMZN": "2026-11-27",
